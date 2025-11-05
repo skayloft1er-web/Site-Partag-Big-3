@@ -1,0 +1,17 @@
+/*page principale */
+body{
+    background: linear-gradient(to left, #b15d5d, #b15d5d);
+    text-align: center;
+}
+header{
+        height: 15vh;
+    background: linear-gradient(to top, #b15d5d ,#7adcff); 
+    
+}
+footer{
+      height: 15vh;
+    background: linear-gradient(to bottom, #b15d5d ,#7adcff); 
+}
+main{
+    height: 70vh;
+}
