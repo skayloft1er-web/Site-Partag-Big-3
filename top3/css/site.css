@@ -1,0 +1,48 @@
+/*page principale */
+body{
+height: 65vh;
+text-align: center;
+background-color: #7adcff;
+}
+/*header{
+      height: 15vh;
+     background: linear-gradient(to top, #7adcff ,#b15d5d );
+    color: ;
+}
+
+footer{
+      height: 20vh;
+  background: linear-gradient(to bottom,  rgb(49, 148, 214) ,rgb(248, 0, 116) );
+    color: ;
+}
+.lien :hover{
+     transform: scale(1.05) rotate(3deg);
+    transition: transform 0.3s;
+    
+}*/
+.image{
+  width: 150px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 12px 10px rgba(75, 17, 209, 0.801);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;}
+
+/*Page home eliott*/
+aside{
+    background-color: blue;
+     padding: 20px;
+     width: 5rem;
+     height: 40rem;
+     transition: background-color 0.3s ease;
+}
+aside :hover{
+      background-color: dodgerblue;
+  color: white
+}
+.bodyeliotthome{
+
+}
+.footereliotthome{
+
+}
