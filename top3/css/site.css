@@ -15,18 +15,24 @@ footer{
   background: linear-gradient(to bottom,  rgb(49, 148, 214) ,rgb(248, 0, 116) );
     color: ;
 }
-.lien :hover{
+    */
+.lien:hover{
      transform: scale(1.05) rotate(3deg);
     transition: transform 0.3s;
     
-}*/
+}
 .image{
   width: 150px;
   height: 220px;
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 12px 10px rgba(75, 17, 209, 0.801);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;}
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.image:hover{
+     transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
 
 /*Page home eliott*/
 aside{
@@ -45,4 +51,31 @@ aside :hover{
 }
 .footereliotthome{
 
+}
+.imageeliott{ 
+    width: 400px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 12px 10px rgba(75, 17, 209, 0.801);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hreliott{
+    border: none;
+  height: 4px;
+  background: linear-gradient(to right, blue, #09eee2); 
+  width: 60%;
+  margin: 30px auto;
+  border-radius: 2px; 
+}
+.asidehomeeliott{
+    background-color: gray;
+     padding: 20px;
+     width: 50px;
+     height: 20rem;
+     transition: background-color 0.3s ease;
+}
+.asidehomeeliott :hover{
+        width: 100px;
+        height: 50 rem;
 }
